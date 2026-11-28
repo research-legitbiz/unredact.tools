@@ -103,6 +103,20 @@ brew install tesseract ffmpeg      # apt install tesseract-ocr ffmpeg on Linux
 
 This installs three equivalent commands: **`unredact.tools`**, the short **`unredact`**, and the legacy `unredact-file`.
 
+## 🌐 Chrome Extension
+[](https://github.com/research-legitbiz/unredact.tools#%EF%B8%8F-supported-formats)
+
+Run local-first OPSEC checks directly inside your browser. The companion extension brings `unredact.tools` to your web workflow—inspecting downloads, shared attachments, and web uploads before they leave your device.
+
+* **Instant File Scanning:** Drag-and-drop or right-click any file in your browser to scan for GPS coordinates, hidden metadata, and failed redactions.
+* **One-Click Sanitization:** Automatically clean images, PDFs, and Office documents before submitting forms or uploading to cloud storage.
+* **100% Local Processing:** Powered by WebAssembly (WASM), your files never touch an external server—everything executes locally within your browser tab.
+
+### Installation & Usage
+1. Download the latest extension build from the [Releases](https://github.com/research-legitbiz/unredact.tools/releases) page.
+2. Open `chrome://extensions` in Google Chrome, enable **Developer mode**, and click **Load unpacked**.
+3. Select the extension directory from your cloned repository.
+
 <details>
 <summary><b>Optional extras</b></summary>
 
